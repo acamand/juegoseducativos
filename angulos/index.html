@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>¡A medir ángulos! - 5º de Primaria</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+  <header>
+    <h1>📐 ¡A medir ángulos!</h1>
+    <p class="subtitle">Ángulos, grados, minutos y segundos</p>
+    <div id="scoreboard">
+      <span class="score-item">⭐ Puntos: <strong id="puntos">0</strong></span>
+      <span class="score-item">✅ Aciertos: <strong id="aciertos">0</strong></span>
+      <span class="score-item">❌ Fallos: <strong id="fallos">0</strong></span>
+      <button id="btn-reset" title="Reiniciar puntuación">🔄</button>
+    </div>
+  </header>
+
+  <nav id="menu">
+    <button class="menu-btn" data-game="inicio">🏠 Inicio</button>
+    <button class="menu-btn" data-game="teoria">📖 Repaso</button>
+    <button class="menu-btn" data-game="clasifica">📐 Clasifica ángulos</button>
+    <button class="menu-btn" data-game="conversion">🔁 Conversiones</button>
+    <button class="menu-btn" data-game="sumaresta">➕ Suma y resta</button>
+    <button class="menu-btn" data-game="mezcla">🎲 Mezcla</button>
+  </nav>
+
+  <main id="screen"></main>
+
+  <footer>
+    <p>Hecho con 💙 para 5º de Primaria</p>
+  </footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
